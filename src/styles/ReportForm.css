@@ -1,0 +1,118 @@
+/* styles/ReportForm.css */
+
+.report-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.report-form-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.report-form-container label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.report-form-container select,
+.report-form-container textarea,
+.report-form-container input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.report-form-container textarea {
+  resize: vertical;
+}
+
+.report-form-container .checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.report-form-container .checkbox-container input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.report-form-container .buttons-container {
+  display: flex;
+  gap: 16px;
+}
+
+.report-form-container button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.report-form-container .submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.report-form-container .submit-btn:disabled {
+  background-color: #a0d8b3;
+  cursor: not-allowed;
+}
+
+.report-form-container .cancel-btn {
+  background-color: #f1f1f1;
+  color: black;
+  border: none;
+}
+
+.report-form-container .cancel-btn:hover {
+  background-color: #ddd;
+}
+
+/* Confirmation screen */
+.report-confirmation-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.report-confirmation-container h2 {
+  font-size: 26px;
+  color: #4CAF50;
+}
+
+.report-confirmation-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.report-confirmation-container button {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+}
+.custom-category-container {
+  margin-top: 16px;
+}
+
+.custom-category-container input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

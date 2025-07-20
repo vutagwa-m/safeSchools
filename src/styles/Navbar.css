@@ -1,0 +1,63 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #17594a;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #b6f09c;
+}
+
+/* Right Section of Navbar (Language Selector & Login) */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Styling for the Login Link */
+.navbar-right a {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5733; /* Add a distinct background color */
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-right a:hover {
+  background-color: #e04e1d; /* Slightly darker shade on hover */
+  color: #fff;
+}
+
+.navbar-right a:active {
+  background-color: #c64516; /* Darken on active state */
+}
+span{
+  color: #ff5733;
+}

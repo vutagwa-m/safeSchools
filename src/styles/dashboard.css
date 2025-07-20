@@ -1,0 +1,88 @@
+/* dashboard.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+  }
+  
+  .dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .header nav ul li {
+    display: inline-block;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header nav ul li a:hover {
+    background-color: #45a049;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .content a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .content a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 0 0 8px 8px;
+    margin-top: 20px;
+  }
+  

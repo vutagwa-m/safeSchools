@@ -1,0 +1,20 @@
+/* Styles for the Report Confirmation Page */
+.confirmation-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #e9ecef;
+  }
+  
+  .confirmation-page h1 {
+    font-size: 2rem;
+    color: #28a745;
+  }
+  
+  .confirmation-page p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  

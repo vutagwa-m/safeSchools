@@ -1,0 +1,78 @@
+.main-container {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    height: 78vh;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .subheading {
+    font-size: 1.25rem;
+    color: #4a4a4a;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .button {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .report-button {
+    background-color: #e53e3e; /* Red */
+  }
+  
+  .resources-button {
+    background-color: #38a169; /* Green */
+  }
+  
+  .gethelp-button {
+    background-color: #3182ce; /* Blue */
+  }
+  
+  /* Resources and Get Help Sections */
+  .contents{
+    display: flex;
+    gap: 4em;
+  }
+  .section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 7px;
+  }
+  
+  .section-description {
+    font-size: 1rem;
+    color: #4a4a4a;
+  }
+  .section:hover{
+    margin-top: 2rem;
+    padding: 1.8rem 1.8rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(3, 43, 37, 0.1);
+  }

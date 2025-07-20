@@ -1,0 +1,169 @@
+/* Login.css */
+.login-container, .register-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container h1, .register-container h1 {
+  color: #2e7d32; /* Dark green */
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.email-login, .register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff9800; /* Orange */
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #ff9800; /* Orange */
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #2e7d32; /* Dark green */
+}
+
+.social-login, .social-register {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.google-btn, .phone-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.google-btn:hover, .phone-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.google-btn img, .phone-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.phone-register {
+  display: flex;
+  gap: 10px;
+}
+
+.phone-register input {
+  flex: 1;
+}
+
+.role-selection {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.role-selection label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin: 1rem 0;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+select {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+a {
+  color: #ff9800; /* Orange */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #2e7d32; /* Dark green */
+  text-decoration: underline;
+}
+
+/* Academic theme elements */
+.login-container::before, .register-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #2e7d32, #ff9800, #d32f2f);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .login-container, .register-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .role-selection {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .phone-register {
+    flex-direction: column;
+  }
+}
